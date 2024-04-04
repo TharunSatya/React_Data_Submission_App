@@ -1,0 +1,73 @@
+
+.nav-bar {
+    background-color: rgb(47, 171, 171);
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+    height: 50px;
+
+}
+
+.content {
+    padding: 20px;
+    background-color: rgb(209, 207, 207);
+    text-align: start;  
+    min-height: 100vh;
+    justify-self: center;
+    padding-top: 100px;  
+    display: flex;
+    justify-content: center;
+}
+
+.save-segment-btn {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-family: 'bree-serif';
+    font-size: 15px;
+}
+
+
+
+.home-container-row {
+    display: flex;
+    min-height: 100vh;
+    min-width: 0;
+}
+
+.home-container {
+    min-height: 100vh;
+    color: yellow;
+}
+
+.main-container {
+    flex-grow: 3;
+}
+
+label {
+    margin: 10px 10px 10px 0px;
+}
+
+/* media Queries for screen size less than 768px */
+@media screen and (max-width: 768px) {
+.nav-bar {
+       
+    text-align: center;
+    height: 60px;
+}
+
+.content {
+   
+    padding-top: 50px;
+}
+
+.save-segment-btn {
+
+    width: 80px;
+    height: 40px;
+}
+
+   
+}

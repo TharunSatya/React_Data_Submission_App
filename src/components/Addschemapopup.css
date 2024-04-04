@@ -1,0 +1,185 @@
+
+.nav-segment {
+    background-color: rgb(47, 171, 171);
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+    height: 50px;
+}
+
+.arrow-icon{
+
+margin-right: 10px;
+}
+
+.segment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.popup-content {
+    background-color: white;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+}
+
+.schema-container {
+    display: flex;
+}
+
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex-grow: 1;
+}
+
+select {
+    margin: 10px 10px 10px 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-start;
+    max-height: 90vh;
+}
+
+label {
+    text-align: start;
+    margin: 10px 10px 10px 0px;
+}
+
+.status-msg{
+    margin: 10px;
+
+    color:rgb(232, 143, 143)
+}
+
+
+
+.segment-name-input {
+    height: 30px;
+    width: 343px;
+    margin: 10px 10px 10px 0px;
+    padding:10px;
+}
+
+.save-the-segment-btn {
+    background-color: cyan;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.clear-btn {
+    background-color: white;
+    color: rgb(240, 136, 153);
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    border: none;
+}
+
+.dropdown {
+    height: 30px;
+    width: 340px;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(247, 225, 225);
+    padding: 80px;
+    text-align: start;
+}
+
+.options-value {
+    color: black;
+}
+
+.selected-schemas{
+   width: 300px;
+    color: black;
+    height: 30px;
+    border: 2px solid black;
+}
+.delete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 40px;
+    width: 30px;
+    margin: 10px 10px 10px 0px;
+    height: 30px;
+    border: none;
+}
+
+
+
+/* For screens smaller than 768px media queries */
+@media only screen and (max-width: 768px) {
+    
+.nav-segment {
+    background-color: rgb(47, 171, 171);
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+    height: 60px;
+}
+.segment-container {
+     padding: 30px;
+}
+
+.popup-content {
+    padding: 20px;
+ }
+
+.segment-name-input {
+     width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+}
+.selected-schemas{
+        
+    width: 200px; 
+}
+
+}
+
+/* For screens smaller than 576px  media queries */
+@media only screen and (max-width: 576px) {
+.segment-container {
+    padding: 20px;
+}
+
+.popup-content {
+    padding: 10px;
+}
+
+.segment-name-input {
+    width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.footer {
+    padding: 40px;
+}
+}
